@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  padding-top: 4.5rem;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.icone {
+  height: 100px;
+}
+
+.backgroundBlockQuote {
+  background: url("../../assets/img/bg-quote.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+}
+
+.lista-plano li {
+  padding: 1rem;
+}
+
+.lista-plano li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .backgroundBlockQuote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
